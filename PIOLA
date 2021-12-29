@@ -1,0 +1,263 @@
+local Piolagui = Instance.new("ScreenGui")
+local PiolaGui = Instance.new("Frame")
+local Piola = Instance.new("TextLabel")
+local Gatto = Instance.new("TextLabel")
+local Proximamente = Instance.new("TextLabel")
+local Borrarxd = Instance.new("TextButton")
+local Chalecos = Instance.new("TextButton")
+local Carroso = Instance.new("TextButton")
+local Lugares = Instance.new("TextButton")
+local Esposaybo = Instance.new("TextButton")
+local Actualiza = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Cerrar = Instance.new("TextButton")
+
+
+Piolagui.Name = "Piola gui"
+Piolagui.Parent = game.CoreGui
+Piolagui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Piolagui.ResetOnSpawn = false
+
+PiolaGui.Name = "PiolaGui"
+PiolaGui.Parent = Piolagui
+PiolaGui.BackgroundColor3 = Color3.fromRGB(177, 177, 177)
+PiolaGui.BackgroundTransparency = 0.350
+PiolaGui.BorderColor3 = Color3.fromRGB(0, 6, 79)
+PiolaGui.Position = UDim2.new(0.763425171, 0, 0.461100608, 0)
+PiolaGui.Size = UDim2.new(0, 165, 0, 179)
+PiolaGui.ZIndex = 4
+
+Piola.Name = "Piola"
+Piola.Parent = PiolaGui
+Piola.BackgroundColor3 = Color3.fromRGB(143, 143, 143)
+Piola.Position = UDim2.new(0, 0, -0.00188007031, 0)
+Piola.Size = UDim2.new(0, 165, 0, 32)
+Piola.ZIndex = 2
+Piola.Font = Enum.Font.SourceSansBold
+Piola.Text = "Piola Gui V1,5"
+Piola.TextColor3 = Color3.fromRGB(0, 0, 0)
+Piola.TextSize = 20.000
+Piola.TextWrapped = true
+
+Gatto.Name = "Gatto"
+Gatto.Parent = PiolaGui
+Gatto.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Gatto.Position = UDim2.new(0.00527313352, 0, 0.869981885, 0)
+Gatto.Size = UDim2.new(0, 164, 0, 23)
+Gatto.ZIndex = 2
+Gatto.Font = Enum.Font.SourceSansBold
+Gatto.Text = "Hecho por Gatto#5311"
+Gatto.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gatto.TextScaled = true
+Gatto.TextSize = 14.000
+Gatto.TextWrapped = true
+
+Proximamente.Name = "Proximamente"
+Proximamente.Parent = PiolaGui
+Proximamente.BackgroundColor3 = Color3.fromRGB(232, 14, 14)
+Proximamente.BackgroundTransparency = 1.000
+Proximamente.Position = UDim2.new(-0.000787538476, 0, 0.655121863, 0)
+Proximamente.Size = UDim2.new(0, 164, 0, 37)
+Proximamente.ZIndex = 2
+Proximamente.Font = Enum.Font.SourceSansBold
+Proximamente.Text = "Proximamente mas flaco no te quejes"
+Proximamente.TextColor3 = Color3.fromRGB(252, 0, 0)
+Proximamente.TextScaled = true
+Proximamente.TextSize = 14.000
+Proximamente.TextWrapped = true
+
+Borrarxd.Name = "Borrarxd"
+Borrarxd.Parent = PiolaGui
+Borrarxd.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Borrarxd.Position = UDim2.new(0.896000028, 0, -0.00700000022, 0)
+Borrarxd.Size = UDim2.new(0, 17, 0, 11)
+Borrarxd.ZIndex = 4
+Borrarxd.Font = Enum.Font.SourceSans
+Borrarxd.Text = "X"
+Borrarxd.TextColor3 = Color3.fromRGB(0, 0, 0)
+Borrarxd.TextSize = 14.000
+
+Chalecos.Name = "Chalecos"
+Chalecos.Parent = PiolaGui
+Chalecos.BackgroundColor3 = Color3.fromRGB(196, 255, 0)
+Chalecos.Position = UDim2.new(0.000363647938, 0, 0.410465717, 0)
+Chalecos.Size = UDim2.new(0, 165, 0, 23)
+Chalecos.ZIndex = 4
+Chalecos.Font = Enum.Font.SourceSansBold
+Chalecos.Text = "Chalecos"
+Chalecos.TextColor3 = Color3.fromRGB(255, 255, 255)
+Chalecos.TextScaled = true
+Chalecos.TextSize = 14.000
+Chalecos.TextWrapped = true
+
+Carroso.Name = "Carroso"
+Carroso.Parent = PiolaGui
+Carroso.BackgroundColor3 = Color3.fromRGB(22, 1, 255)
+Carroso.Position = UDim2.new(0.000412404537, 0, 0.174674958, 0)
+Carroso.Size = UDim2.new(0, 165, 0, 21)
+Carroso.ZIndex = 5
+Carroso.Font = Enum.Font.SourceSansBold
+Carroso.Text = "Carros TP Gui"
+Carroso.TextColor3 = Color3.fromRGB(255, 255, 255)
+Carroso.TextScaled = true
+Carroso.TextSize = 14.000
+Carroso.TextWrapped = true
+
+Lugares.Name = "Lugares"
+Lugares.Parent = PiolaGui
+Lugares.BackgroundColor3 = Color3.fromRGB(27, 255, 11)
+Lugares.Position = UDim2.new(0.000363647938, 0, 0.287105232, 0)
+Lugares.Size = UDim2.new(0, 165, 0, 21)
+Lugares.ZIndex = 5
+Lugares.Font = Enum.Font.SourceSansBold
+Lugares.Text = "Lugares TP Gui"
+Lugares.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lugares.TextScaled = true
+Lugares.TextSize = 14.000
+Lugares.TextWrapped = true
+
+Esposaybo.Name = "Esposaybo"
+Esposaybo.Parent = PiolaGui
+Esposaybo.BackgroundColor3 = Color3.fromRGB(128, 0, 255)
+Esposaybo.Position = UDim2.new(0.000412404537, 0, 0.537803411, 0)
+Esposaybo.Size = UDim2.new(0, 165, 0, 21)
+Esposaybo.ZIndex = 5
+Esposaybo.Font = Enum.Font.SourceSansBold
+Esposaybo.Text = "Esposas y botiquin"
+Esposaybo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esposaybo.TextScaled = true
+Esposaybo.TextSize = 14.000
+Esposaybo.TextWrapped = true
+
+Actualiza.Name = "Actualiza"
+Actualiza.Parent = Piolagui
+Actualiza.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Actualiza.Position = UDim2.new(0.371908128, 0, 0.333965838, 0)
+Actualiza.Size = UDim2.new(0, 191, 0, 139)
+
+TextLabel.Parent = Actualiza
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(-0.000498027715, 0, 0.160280079, 0)
+TextLabel.Size = UDim2.new(0, 191, 0, 117)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "17/04/21. - ahora podran agarrar esposas y botiquin."
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = Actualiza
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextLabel_2.Position = UDim2.new(-0.00505521288, 0, -0.00226609479, 0)
+TextLabel_2.Size = UDim2.new(0, 191, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "-Actualizacion 1,4."
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+Cerrar.Name = "Cerrar"
+Cerrar.Parent = Actualiza
+Cerrar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cerrar.BorderSizePixel = 0
+Cerrar.Position = UDim2.new(0.899999976, 0, -0.00499999989, 0)
+Cerrar.Size = UDim2.new(0, 19, 0, 16)
+Cerrar.Font = Enum.Font.SourceSans
+Cerrar.Text = "Ok"
+Cerrar.TextColor3 = Color3.fromRGB(255, 0, 0)
+Cerrar.TextSize = 14.000
+
+-- Scripts:
+
+local function HFSGSH_fake_script() 
+	local script = Instance.new('LocalScript', PiolaGui)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(HFSGSH_fake_script)()
+local function CKGXFBX_fake_script() 
+	local script = Instance.new('LocalScript', Borrarxd)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(CKGXFBX_fake_script)()
+local function QOHCJT_fake_script() 
+	local script = Instance.new('Script', Chalecos)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/0jM5neJV", true))()
+	end)
+end
+coroutine.wrap(QOHCJT_fake_script)()
+local function BDAS_fake_script()
+	local script = Instance.new('Script', Carroso)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/JUjAiiqy", true))()
+	end)
+end
+coroutine.wrap(BDAS_fake_script)()
+local function QRKAQWB_fake_script() 
+	local script = Instance.new('Script', Lugares)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/QBkvrB82", true))()
+	end)
+end
+coroutine.wrap(QRKAQWB_fake_script)()
+local function MYHNUM_fake_script() 
+	local script = Instance.new('Script', Esposaybo)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/FZX9nJkK", true))()
+	end)
+end
+coroutine.wrap(MYHNUM_fake_script)()
+local function NMJAJUB_fake_script() 
+	local script = Instance.new('Script', Cerrar)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(NMJAJUB_fake_script)()
